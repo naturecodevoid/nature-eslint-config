@@ -17,3 +17,12 @@ Edit `.eslintrc.js`:
 ```javascript
 module.exports = require("nature-eslint-config");
 ```
+
+Or if you want to change some rules:
+
+```javascript
+module.exports = {
+    ...require("nature-eslint-config"),
+    otherOptions: {}
+};
+```
