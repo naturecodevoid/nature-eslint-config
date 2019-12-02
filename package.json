@@ -16,6 +16,10 @@
         "url": "https://github.com/naturecodevoid/nature-eslint-config/issues"
     },
     "homepage": "https://github.com/naturecodevoid/nature-eslint-config#readme",
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ],
     "dependencies": {
         "eslint": "^6.7.1",
         "eslint-plugin-github": "^3.3.1",
