@@ -21,11 +21,11 @@ module.exports = require("nature-eslint-config");
 Or if you want to change some rules:
 
 ```javascript
-module.exports = {
-    ...require("nature-eslint-config"),
-    rules: {
-        ...require("nature-eslint-config")["rules"],
-        myRule: false
-    }
-};
+let config = require("nature-eslint-config");
+
+// Now add or change rules
+config["rules"]["myRule"] = "error";
+
+// Export the changed config
+module.exports = config;
 ```
