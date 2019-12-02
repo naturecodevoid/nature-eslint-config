@@ -23,6 +23,9 @@ Or if you want to change some rules:
 ```javascript
 module.exports = {
     ...require("nature-eslint-config"),
-    otherOptions: {}
+    rules: {
+        ...require("nature-eslint-config")["rules"],
+        myRule: false
+    }
 };
 ```
