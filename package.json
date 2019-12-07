@@ -3,6 +3,7 @@
     "version": "1.0.3",
     "description": "naturecodevoid's Eslint Config",
     "main": "index.js",
+    "bin": "cli.js",
     "scripts": {
         "test": "cd ./test && eslint --config ./.eslintrc.test.js ./main.test.js"
     },
@@ -29,5 +30,8 @@
         "eslint": ">=6.7.1",
         "eslint-plugin-github": ">=3.3.1",
         "eslint-plugin-prettier": ">=3.1.1"
+    },
+    "devDependencies": {
+        "nature-prettier-config": "^1.0.6"
     }
 }

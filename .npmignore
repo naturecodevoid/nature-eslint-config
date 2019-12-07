@@ -10,3 +10,5 @@ package-lock.json
 .npmignore
 .gitignore
 .gitattributes
+.eslintrc.js
+prettier.config.js
