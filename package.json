@@ -1,6 +1,6 @@
 {
     "name": "nature-eslint-config",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "naturecodevoid's Eslint Config",
     "main": "index.js",
     "bin": "cli.js",
@@ -24,5 +24,8 @@
     },
     "devDependencies": {
         "nature-prettier-config": "^1.0.6"
+    },
+    "peerDependencies": {
+        "eslint": ">= 3"
     }
 }
